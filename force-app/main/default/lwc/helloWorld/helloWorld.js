@@ -3,7 +3,7 @@ import { LightningElement } from 'lwc';
 export default class HelloWorld extends LightningElement {
     
     fname = 'Luke'
-    lname = 'Farbotko';
+    lname = 'Farbotko1';
 
 
     lnameChangeHandler(event) {
