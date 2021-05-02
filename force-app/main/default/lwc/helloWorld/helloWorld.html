@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="HelloWorld" icon-name="custom:custom14">
+      <div class="slds-m-around_medium">
+        <p>Hello, {fname} {lname}!</p>
+        <lightning-input label="First Name" value={fname} onchange={changeHandler}></lightning-input>
+        <lightning-input label="Last Name" value={lname} onchange={changeHandler}></lightning-input>
+      </div>
+    </lightning-card>
+  </template>
